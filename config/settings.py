@@ -52,3 +52,15 @@ class Settings:
 
 
 settings = Settings()
+
+
+def reload_settings() -> None:
+    """Reload environment and re-instantiate the `settings` singleton at runtime.
+
+    Call this after updating the `.env` file so the app can pick up new values
+    without a full process restart (Streamlit may still need a rerun).
+    """
+    global settings
+    # force reload of environment variables from .env (override existing)
+    load_dotenv(override=True)
+    settings = Settings()

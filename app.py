@@ -17,6 +17,7 @@ from ui.components import apply_theme
 from ui.dashboard import dashboard_page
 from ui.reports import reports_page
 from ui.research import research_page
+from ui.settings import settings_page
 from ui.session import current_user, init_session_state, is_authenticated, logout
 
 init_db()
@@ -33,7 +34,7 @@ def sidebar_nav() -> None:
             user = current_user()
             assert user is not None
             st.markdown(f"**Signed in as**  \n{user.username}")
-            pages = ["Dashboard", "Research", "AI Chat", "Reports", "Profile"]
+            pages = ["Dashboard", "Research", "AI Chat", "Reports", "Profile", "Settings"]
             choice = st.radio("Navigate", pages, label_visibility="collapsed")
             st.session_state["page"] = choice
             st.markdown("---")
@@ -64,6 +65,8 @@ def main() -> None:
         reports_page()
     elif page == "Profile":
         profile_page()
+    elif page == "Settings":
+        settings_page()
 
 
 if __name__ == "__main__":
