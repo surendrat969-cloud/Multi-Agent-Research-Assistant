@@ -1,0 +1,15 @@
+services:
+  researchmind:
+    build: .
+    container_name: researchmind-ai
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./.env:/app/.env:ro
+      - researchmind_data:/app/database
+      - researchmind_faiss:/app/faiss_index
+    restart: unless-stopped
+
+volumes:
+  researchmind_data:
+  researchmind_faiss:

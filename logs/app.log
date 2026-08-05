@@ -1,0 +1,110 @@
+2026-08-05 08:43:39 | INFO     | researchmind | Pipeline started for query: artificial intelligence in healthcare
+2026-08-05 08:43:39 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | Initializing Gemini model: gemini-2.5-flash
+2026-08-05 08:43:41 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | ERROR    | researchmind | Planner Agent error: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 2.321s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.000s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | RAG Agent: no documents indexed, skipping retrieval
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.000s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.000s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | Initializing Gemini model: gemini-2.5-flash
+2026-08-05 08:43:41 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | ERROR    | researchmind | Writer Agent error: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.138s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.000s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | Initializing Gemini model: gemini-2.5-flash
+2026-08-05 08:43:41 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | ERROR    | researchmind | Enrichment Agent error: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.129s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | Initializing Gemini model: gemini-2.5-flash
+2026-08-05 08:43:41 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | ERROR    | researchmind | Citation Agent error: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.138s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:41 | INFO     | researchmind | Initializing Gemini model: gemini-2.5-flash
+2026-08-05 08:43:41 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | ERROR    | researchmind | Presentation Agent error: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:41 | INFO     | researchmind | ✔ BaseAgent completed in 0.127s
+2026-08-05 08:43:41 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:42 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:42 | ERROR    | researchmind | Interview Agent error: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:42 | INFO     | researchmind | ✔ BaseAgent completed in 0.160s
+2026-08-05 08:43:42 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:43:59 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:59 | ERROR    | researchmind | Quiz Agent error: Error calling model 'gemini-2.5-flash' (NOT_FOUND): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+2026-08-05 08:43:59 | INFO     | researchmind | ✔ BaseAgent completed in 17.554s
+2026-08-05 08:43:59 | INFO     | researchmind | Pipeline finished. Agents run: 11, errors: 7
+2026-08-05 08:44:39 | INFO     | researchmind | Pipeline started for query: artificial intelligence in healthcare
+2026-08-05 08:44:39 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:44:41 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:44:47 | INFO     | researchmind | ✔ BaseAgent completed in 8.385s
+2026-08-05 08:44:47 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:44:47 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:45:07 | INFO     | researchmind | ✔ BaseAgent completed in 19.840s
+2026-08-05 08:45:07 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:45:07 | INFO     | researchmind | RAG Agent: no documents indexed, skipping retrieval
+2026-08-05 08:45:07 | INFO     | researchmind | ✔ BaseAgent completed in 0.000s
+2026-08-05 08:45:07 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:45:07 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:45:31 | WARNING  | researchmind | Verification parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-08-05 08:45:31 | INFO     | researchmind | ✔ BaseAgent completed in 23.359s
+2026-08-05 08:45:31 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:45:31 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:46:17 | INFO     | researchmind | ✔ BaseAgent completed in 46.793s
+2026-08-05 08:46:17 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:46:17 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:46:52 | INFO     | researchmind | ✔ BaseAgent completed in 34.991s
+2026-08-05 08:46:52 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:47:18 | INFO     | researchmind | ✔ BaseAgent completed in 25.922s
+2026-08-05 08:47:18 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:47:18 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:47:58 | INFO     | researchmind | Pipeline started for query: quantum computing basics
+2026-08-05 08:47:59 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:48:00 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:48:06 | INFO     | researchmind | ✔ BaseAgent completed in 7.530s
+2026-08-05 08:48:06 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:48:06 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:48:24 | INFO     | researchmind | ✔ BaseAgent completed in 18.385s
+2026-08-05 08:48:24 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:48:24 | INFO     | researchmind | RAG Agent: no documents indexed, skipping retrieval
+2026-08-05 08:48:24 | INFO     | researchmind | ✔ BaseAgent completed in 0.000s
+2026-08-05 08:48:24 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:48:24 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:49:27 | WARNING  | researchmind | Verification parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-08-05 08:49:27 | INFO     | researchmind | ✔ BaseAgent completed in 63.038s
+2026-08-05 08:49:27 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:49:27 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:51:29 | INFO     | researchmind | ✔ BaseAgent completed in 121.291s
+2026-08-05 08:51:29 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:51:29 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:52:21 | INFO     | researchmind | ✔ BaseAgent completed in 52.720s
+2026-08-05 08:52:21 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:52:40 | INFO     | researchmind | ✔ BaseAgent completed in 18.992s
+2026-08-05 08:52:40 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:52:40 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:53:35 | INFO     | researchmind | ✔ BaseAgent completed in 54.382s
+2026-08-05 08:53:35 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:53:35 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:54:08 | INFO     | researchmind | ✔ BaseAgent completed in 32.838s
+2026-08-05 08:54:08 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:54:42 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-flash-latest' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 17.49559436s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}
+2026-08-05 08:54:42 | ERROR    | researchmind | Interview Agent error: Error calling model 'gemini-flash-latest' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 17.49559436s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}
+2026-08-05 08:54:42 | INFO     | researchmind | ✔ BaseAgent completed in 34.341s
+2026-08-05 08:54:42 | INFO     | researchmind | ▶ BaseAgent started
+2026-08-05 08:55:07 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:55:41 | ERROR    | researchmind | LLM invoke failed: Error calling model 'gemini-flash-latest' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 18.302981256s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '18s'}]}}
+2026-08-05 08:56:15 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:56:48 | WARNING  | researchmind | Rate limited (attempt 1/3). Retrying in 20s…
+2026-08-05 08:57:51 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 08:58:24 | WARNING  | researchmind | Rate limited (attempt 1/3). Retrying in 20s…
+2026-08-05 08:59:17 | WARNING  | researchmind | Rate limited (attempt 2/3). Retrying in 40s…
+2026-08-05 08:59:27 | INFO     | researchmind | Initializing Gemini model: gemini-flash-latest
+2026-08-05 09:00:02 | WARNING  | researchmind | Rate limited (attempt 1/3). Retrying in 20s…
