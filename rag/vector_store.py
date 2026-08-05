@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Any
 
 import numpy as np
 
@@ -11,8 +11,10 @@ from config import settings
 from rag.embeddings import embed_texts, embed_query
 from utils.logger import logger
 
+faiss: Any = None
 try:
-    import faiss  # type: ignore
+    import faiss as _faiss  # type: ignore
+    faiss = _faiss
 except ImportError:  # pragma: no cover
     faiss = None
 
@@ -21,7 +23,7 @@ class FAISSStore:
     """In-memory + disk-persisted FAISS index for semantic search."""
 
     def __init__(self) -> None:
-        self.index = None  # type: ignore[assignment]
+        self.index: Any = None
         self.chunks: list[str] = []
         self.dim: int = 0
         self._path = settings.faiss_path_abs

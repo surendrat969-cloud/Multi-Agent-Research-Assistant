@@ -57,8 +57,11 @@ class FileService:
         return FileRepository.save(rec)
 
     @staticmethod
-    def list(user_id: str) -> list[UploadedFileRecord]:
+    def list_for_user(user_id: str) -> list[UploadedFileRecord]:
         return FileRepository.list_for_user(user_id)
+
+    # Note: do not define a `list` symbol here (it would shadow the builtin
+    # `list` name and confuse type annotations). Use `FileService.list_for_user()`.
 
     @staticmethod
     def delete(file_id: str) -> bool:

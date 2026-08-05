@@ -155,9 +155,9 @@ def research_page() -> None:
             service = ResearchService()
             for pct in range(0, 101, 10):
                 progress.progress(pct, text="Agents working…")
-            state = service.run(user.id, query.strip())
+            result_state = service.run(user.id, query.strip())
             progress.progress(100, text="Done!")
-            st.session_state["last_state"] = state
+            st.session_state["last_state"] = result_state
             st.success("Research complete!")
         except Exception as exc:  # noqa: BLE001
             progress.empty()

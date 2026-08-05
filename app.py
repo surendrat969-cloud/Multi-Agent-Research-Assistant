@@ -31,6 +31,7 @@ def sidebar_nav() -> None:
 
         if is_authenticated():
             user = current_user()
+            assert user is not None
             st.markdown(f"**Signed in as**  \n{user.username}")
             pages = ["Dashboard", "Research", "AI Chat", "Reports", "Profile"]
             choice = st.radio("Navigate", pages, label_visibility="collapsed")
